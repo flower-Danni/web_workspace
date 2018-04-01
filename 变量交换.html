@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    <!--需求：交换两个变量（数值型）而且不用中间值步骤：求两个数据的和，然后减去其中一个交换给另外一个-->
+    // var a = 30;
+    // var b = 20;
+    // var sum = a + b;
+    // a = sum - a;
+    // b = sum - b;
+    // console.log(a + "====" + b);
+
+
+    // var num3 = 333; //全局变量
+    // function  fun() {
+    //     var num1 = 111;//局部凉凉
+    //     num2 = 222; //全局变量
+    // }
+    // fun();
+    // console.log(num3);
+    // console.log(num2);
+    // // console.log(num1);
+    // //块级作用域
+    // {
+    //     var num4 = 444;
+    // }
+    //
+    // function fun(){
+    //     //b c都是隐式全局变量
+    //     var a = b = c = 1;
+    //     // e f都是隐式全局变量
+    //     var d = 1; e = 2 ; f = 3;
+    //     //g i 不是隐式全局不变量
+    //     var g = 1, h = 1,i = 1;
+    // }
+
+    // var num = 10;
+    // fun();
+    // function  fun() {
+    //     //变量声明提升 只提升变量名，不提升变量值
+    //     console.log(num);
+    //     var num = 20;
+    // }
+
+    fun();
+    console.log(c);
+    console.log(b);
+    console.log(a);
+    function  fun() {
+        var a = b = c = 9;
+        console.log(a);
+        console.log(b);
+        console.log(c);
+    }
+
+</script>
+
+</body>
+</html>
